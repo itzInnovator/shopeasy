@@ -67,7 +67,13 @@ body {
 }
 
 /* @media (max-width: 1201px) {
-    body {
+    #head {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(55, 55, 55);
+        
+    }
+    /* body {
 
         visibility: hidden;
         background-color: rgb(255, 255, 255);
@@ -75,5 +81,5 @@ body {
     #hiddentext {
         color: black;
         text-align: center;
-    }
+    } */
 } */

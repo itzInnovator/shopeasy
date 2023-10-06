@@ -12,41 +12,97 @@
         body {
             background-color: black;
         }
-        #msg {
+
+        .msg {
             color: white;
             font-family: 'Bree Serif', serif;
+            margin-top: 40px;
+            font-size: 1.9rem;
         }        
-        .divclass {
-            background-color: rgb(255, 255, 255);
-            font-family: 'Bree Serif', serif;
-            font-family: 'Raleway', sans-serif;
-            border: 4px;
-            border-color: rgb(54, 54, 54);
-            border-style: solid;
+
+        .contact {
+            margin-top: 280px;
         }
-        #order {
-            height: 80px;
-            width: 220px;
-            margin-top: 45px;
-            margin-left: 490px;
+
+        #track {
+            -webkit-border-radius: 26;
+            -moz-border-radius: 26;
+            border-radius: 26px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            background: #2d2d2d;
+            padding: 15px 23px 15px 23px;
+            border: solid #000000 2px;
+            text-decoration: none;
+
+            position: absolute;
+            top: 26%; 
+            left: 34%;
         }
+        #track:hover {
+            background-color: rgb(88, 88, 88);
+        }
+
         #refund {
-            height: 80px;
-            width: 220px;
-            margin-top: -90px;
-            margin-left: 790px;
+            -webkit-border-radius: 26;
+            -moz-border-radius: 26;
+            border-radius: 26px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            background: #2d2d2d;
+            padding: 15px 23px 15px 23px;
+            border: solid #000000 2px;
+            text-decoration: none;
+
+            position: absolute;
+            top: 26%; 
+            left: 53.5%;
+            z-index: 5;
         }
+        #refund:hover {
+            background-color: rgb(88, 88, 88);
+        }
+
         #payment {
-            height: 80px;
-            width: 220px;
-            margin-top: 30px;
-            margin-left: 490px;
+            -webkit-border-radius: 26;
+            -moz-border-radius: 26;
+            border-radius: 26px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            background: #2d2d2d;
+            padding: 15px 23px 15px 23px;
+            border: solid #000000 2px;
+            text-decoration: none;
+
+            position: absolute;
+            top: 43%; 
+            left: 33.5%;
         }
+        #payment:hover {
+            background-color: rgb(88, 88, 88);
+        }
+
         #account {
-            height: 80px;
-            width: 220px;
-            margin-top: -90px;
-            margin-left: 790px;
+            -webkit-border-radius: 26;
+            -moz-border-radius: 26;
+            border-radius: 26px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            background: #2d2d2d;
+            padding: 15px 23px 15px 23px;
+            border: solid #000000 2px;
+            text-decoration: none;
+
+            position: absolute;
+            top: 43%; 
+            left: 53%;
+        }
+        #account:hover {
+            background-color: rgb(88, 88, 88);
         }
 
     </style>
@@ -57,32 +113,36 @@
         <img src="./assets/back.png" alt="Back Button" width="40" height="40" style="position: absolute; top: 1.9%; left: 1%;">
     </a>
     <br><br>
-    <center><h1 id="msg">Hey there! How can we help you?</h1></center>
-
-    <div class="divclass" id="order">
-         <h2 style="position: absolute; top: 24%; left: 34%;">Track your Order</h2>
+    <center><h1 class="msg">Hey there! How can we help you?</h1></center>
+    
+    <div class="divclass" >
+        <button id="track">Track your Order </button>
+        <!-- <h2 style="position: absolute; top: 24%; left: 34%;">Track your Order</h2> -->
     </div>
-    <div class="divclass" id="refund">
-        <h2 style="position: absolute; top: 24%; left: 56.5%;">Refund</h2>
+    <div class="divclass" >
+        <button id="refund" >Refund Status</button>
+        <!-- <h2 style="position: absolute; top: 24%; left: 56.5%;">Refund</h2> -->
     </div>
-    <div class="divclass" id="payment">
-        <h2 style="position: absolute; top: 40%; left: 33.5%;">Payment Settings</h2>
+    <div class="divclass" >
+        <button id="payment" >Payment Settings</button>
+        <!-- <h2 style="position: absolute; top: 40%; left: 33.5%;">Payment Settings</h2> -->
     </div>
-    <div class="divclass" id="account">
-        <h2 style="position: absolute; top: 40%; left: 53%;">Account Settings</h2>
+    <div class="divclass">
+        <button id="account" >Account Settings</button>
+        <!-- <h2 style="position: absolute; top: 40%; left: 53%;">Account Settings</h2> -->
     </div>
 
     <br><br><br><br>
-    <h1 id="msg">Ways to Contact Us:</h1>
+    <h1 class="contact msg" >Ways to Contact Us:</h1>
     
     <a href="https://instagram.com">
-    <img src="./assets/instagram.png" alt="Instagram"width="35" height="35" style="position: absolute; top: 75%; left: 1%;" >
+    <img src="./assets/instagram.png" alt="Instagram"width="35" height="35" style="position: absolute; top: 84%; left: 1%;" >
     </a>
     <a href="https://x.com">
-    <img src="./assets/twitter.png" alt="Twitter"width="35" height="35" style="position: absolute; top: 75%; left: 5%;" >
+    <img src="./assets/twitter.png" alt="Twitter"width="35" height="35" style="position: absolute; top: 84%; left: 5%;" >
     </a>
     <a href="https://linkedin.com">
-    <img src="./assets/linkedin.png" alt="LinkedIn"width="35" height="35" style="position: absolute; top: 75%; left: 8.5%;" >
+    <img src="./assets/linkedin.png" alt="LinkedIn"width="35" height="35" style="position: absolute; top: 84%; left: 8.5%;" >
     </a>
     
 </body>
