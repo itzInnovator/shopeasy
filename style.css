@@ -7,6 +7,16 @@ body {
     background-color: rgb(55, 55, 55);
     /* z-index: 1; */
 }
+#appname {
+    color: white;
+    font-family: 'Itim', cursive;
+    font-family: 'Roboto Slab', serif;
+    position: absolute; 
+    top: 0.4%; 
+    left: 5.5%;
+    font-size: 1.5em;
+}
+
 .headtext{
     color: rgb(191, 195, 198);
     font-size: 15px;
